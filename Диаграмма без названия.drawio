@@ -1,6 +1,6 @@
-<mxfile modified="2023-10-19T11:37:24.801Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="xSkQQn2ojfT5BztTmfeB" version="22.0.5" type="github">
+<mxfile modified="2023-10-19T12:07:48.894Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="poOHGkinGtDNoQNDT0TK" version="22.0.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="714" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,9 +20,6 @@
         </mxCell>
         <mxCell id="IbvGenf9ESDn4LlJbBb--33" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="191.25" y="59.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IbvGenf9ESDn4LlJbBb--42" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="630" y="40" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="IbvGenf9ESDn4LlJbBb--76" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#5A69A4;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="240" y="396" width="73.5" height="84" as="geometry" />
@@ -63,17 +60,17 @@
         <mxCell id="VfG_WuXAYjkoEv0OF0y1-21" value="API Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="469" y="61" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VfG_WuXAYjkoEv0OF0y1-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IbvGenf9ESDn4LlJbBb--42">
+        <mxCell id="VfG_WuXAYjkoEv0OF0y1-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="529" y="137.75" as="sourcePoint" />
-            <mxPoint x="579" y="87.75" as="targetPoint" />
+            <mxPoint x="640.0050000000001" y="101.55999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VfG_WuXAYjkoEv0OF0y1-24" value="Auth Lambda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="637" y="10" width="60" height="30" as="geometry" />
+        <mxCell id="VfG_WuXAYjkoEv0OF0y1-24" value="Auth Microservice&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="637" y="10" width="93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VfG_WuXAYjkoEv0OF0y1-25" value="Complete auth for request and for shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="697" y="37" width="156" height="75" as="geometry" />
+        <mxCell id="VfG_WuXAYjkoEv0OF0y1-25" value="Complete auth for request and for shop&lt;br&gt;TMS&lt;br&gt;checks shipment creation possibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="713.5" y="48.75" width="156" height="75" as="geometry" />
         </mxCell>
         <mxCell id="VfG_WuXAYjkoEv0OF0y1-27" value="Proceed by route of incoming request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="499.5" y="257" width="115" height="30" as="geometry" />
@@ -113,6 +110,9 @@
             <mxPoint x="494.75" y="350" as="sourcePoint" />
             <mxPoint x="494.75" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VfG_WuXAYjkoEv0OF0y1-51" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#5A69A4;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="48.75" width="73.5" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
